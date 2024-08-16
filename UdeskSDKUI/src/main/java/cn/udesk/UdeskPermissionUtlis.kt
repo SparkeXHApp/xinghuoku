@@ -27,7 +27,7 @@ object UdeskPermissionUtlis {
             or permissions.contains(Manifest.permission.READ_MEDIA_IMAGES)
         ) {
             title = "星火英语申请获取存储空间权限"
-            content = "在下方弹窗中选择允许后，您可以正常扫码，并能进行主观题/头像/意见反馈的上传。您可以随时在手机设置-权限管理中取消授权。"
+            content = "星火英语需要读写设备上的照片及文件，用于读取/写入图片、文件等功能。您可以随时在手机设置-权限管理中取消授权。"
         } else if (permissions.contains(Manifest.permission.RECORD_AUDIO)) {
             title = "星火英语申请获取录音权限"
             content = "在下方弹窗中选择允许后，您可以正常录音。您可以随时在手机设置-权限管理中取消授权。"
