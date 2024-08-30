@@ -538,10 +538,10 @@ public class UdeskAgentFragment extends UdeskbaseFragment implements View.OnClic
                 functionItems.add(mapItem);
             }
 
-            if (UdeskSDKManager.getInstance().getUdeskConfig().isUsefile) {
-                FunctionMode fileItem = new FunctionMode(getString(R.string.file), UdeskConst.UdeskFunctionFlag.Udesk_Udesk_File, R.drawable.udesk_file_icon);
-                functionItems.add(fileItem);
-            }
+//            if (UdeskSDKManager.getInstance().getUdeskConfig().isUsefile) {
+//                FunctionMode fileItem = new FunctionMode(getString(R.string.file), UdeskConst.UdeskFunctionFlag.Udesk_Udesk_File, R.drawable.udesk_file_icon);
+//                functionItems.add(fileItem);
+//            }
 
             if (UdeskSDKManager.getInstance().getUdeskConfig().extreFunctions != null
                     && UdeskSDKManager.getInstance().getUdeskConfig().extreFunctions.size() > 0) {
