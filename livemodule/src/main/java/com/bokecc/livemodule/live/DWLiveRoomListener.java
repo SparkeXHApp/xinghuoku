@@ -84,4 +84,7 @@ public interface DWLiveRoomListener {
      * @param mode 禁言类型 1：个人禁言  2：全员禁言
      */
     void onUnBanChat(int mode);
+	
+	//定制聊天
+	void onCustomMessage(String customMessage);
 }

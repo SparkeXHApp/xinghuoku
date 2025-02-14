@@ -1024,6 +1024,9 @@ public class DWLiveCoreHandler {
                 ThreadUtils.checkIsOnMainThread();
                 Log.d(TAG, "onCustomMessage:" + customMessage);
             }
+			 if (dwLiveRoomListener != null) {
+                dwLiveRoomListener.onCustomMessage(customMessage);
+            }
         }
 
         /**
