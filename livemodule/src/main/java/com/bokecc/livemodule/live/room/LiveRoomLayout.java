@@ -725,6 +725,11 @@ public class LiveRoomLayout extends BaseRelativeLayout implements DWLiveRoomList
         });
     }
 
+    @Override
+    public void onCustomMessage(String customMessage) {
+
+    }
+
 
     // 监听软键盘高度
     @Override
